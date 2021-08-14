@@ -1,0 +1,16 @@
+{
+    "folders": [
+		{
+			"name": "_",
+			"path": "../musicianblog/gatsbymedialanding/_"
+		},
+		{
+			"name": "gatsbymedialanding",
+			"path": "."
+		}
+	],
+    "settings": {
+		"git.ignoreLimitWarning": true,
+		"liveServer.settings.multiRootWorkspaceName": "gatsbymedialanding"
+    }
+}
