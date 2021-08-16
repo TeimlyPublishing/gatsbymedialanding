@@ -21,7 +21,6 @@ module.exports = {
             },
         },
         "gatsby-plugin-mdx",
-        "gatsby-plugin-themeui",
         "gatsby-plugin-sharp",
         "gatsby-transformer-sharp",
         {
