@@ -1,19 +1,4 @@
-var plugins = [{
-      plugin: require('/Users/coolestever/Documents/GitHub/gatsbymedialanding/node_modules/gatsby-source-sanity/gatsby-ssr'),
-      options: {"plugins":[],"projectId":"musicianblog","dataset":""},
-    },{
-      plugin: require('/Users/coolestever/Documents/GitHub/gatsbymedialanding/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
-      options: {"plugins":[]},
-    },{
-      plugin: require('/Users/coolestever/Documents/GitHub/gatsbymedialanding/node_modules/gatsby-plugin-sitemap/gatsby-ssr'),
-      options: {"plugins":[],"output":"/sitemap.xml","createLinkInHead":true},
-    },{
-      plugin: require('/Users/coolestever/Documents/GitHub/gatsbymedialanding/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
-      options: {"plugins":[],"icon":"src/images/icon.png","legacy":true,"theme_color_in_head":true,"cache_busting_mode":"query","crossOrigin":"anonymous","include_favicon":true,"cacheDigest":null},
-    },{
-      plugin: require('/Users/coolestever/Documents/GitHub/gatsbymedialanding/node_modules/gatsby-plugin-mdx/gatsby-ssr'),
-      options: {"plugins":[],"extensions":[".mdx"],"defaultLayouts":{},"gatsbyRemarkPlugins":[],"lessBabel":false,"remarkPlugins":[],"rehypePlugins":[],"mediaTypes":["text/markdown","text/x-markdown"],"root":"/Users/coolestever/Documents/GitHub/gatsbymedialanding"},
-    }]
+var plugins = []
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [
 //   {

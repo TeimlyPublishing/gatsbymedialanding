@@ -7,10 +7,6 @@
           "options": {}
         },
         {
-          "name": "/Users/coolestever/Documents/GitHub/gatsbymedialanding/node_modules/@babel/plugin-proposal-object-rest-spread/lib/index.js",
-          "options": {}
-        },
-        {
           "name": "/Users/coolestever/Documents/GitHub/gatsbymedialanding/node_modules/@babel/plugin-proposal-optional-chaining/lib/index.js",
           "options": {}
         },
@@ -43,10 +39,6 @@
       "plugins": [
         {
           "name": "babel-plugin-lodash",
-          "options": {}
-        },
-        {
-          "name": "/Users/coolestever/Documents/GitHub/gatsbymedialanding/node_modules/@babel/plugin-proposal-object-rest-spread/lib/index.js",
           "options": {}
         },
         {
@@ -85,10 +77,6 @@
           "options": {}
         },
         {
-          "name": "/Users/coolestever/Documents/GitHub/gatsbymedialanding/node_modules/@babel/plugin-proposal-object-rest-spread/lib/index.js",
-          "options": {}
-        },
-        {
           "name": "/Users/coolestever/Documents/GitHub/gatsbymedialanding/node_modules/@babel/plugin-proposal-optional-chaining/lib/index.js",
           "options": {}
         },
@@ -121,10 +109,6 @@
       "plugins": [
         {
           "name": "babel-plugin-lodash",
-          "options": {}
-        },
-        {
-          "name": "/Users/coolestever/Documents/GitHub/gatsbymedialanding/node_modules/@babel/plugin-proposal-object-rest-spread/lib/index.js",
           "options": {}
         },
         {
