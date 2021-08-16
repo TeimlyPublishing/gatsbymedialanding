@@ -17,17 +17,18 @@ module.exports = {
         {
             resolve: "gatsby-plugin-manifest",
             options: {
-                icon: "src/images/icon.png",
+                icon: "./boiler/src/images/icon.png",
             },
         },
         "gatsby-plugin-mdx",
+        "gatsby-plugin-themeui",
         "gatsby-plugin-sharp",
         "gatsby-transformer-sharp",
         {
             resolve: "gatsby-source-filesystem",
             options: {
                 name: "images",
-                path: "./src/",
+                path: "./boiler/",
             },
             __key: "images",
         },
@@ -35,7 +36,7 @@ module.exports = {
             resolve: "gatsby-source-filesystem",
             options: {
                 name: "pages",
-                path: "./src/pages/",
+                path: "./boiler/src/pages/",
             },
             __key: "pages",
         },
@@ -47,7 +48,7 @@ module.exports = {
                     resolve: `gatsby-theme-notes`,
                     options: {
                         mdx: true,
-                        basePath: `/notes`,
+                        basePath: `./boiler/src`,
                     },
                 },
                 // with gatsby-plugin-theme-ui, the last theme in the config
