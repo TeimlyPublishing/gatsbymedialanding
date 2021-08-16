@@ -1,0 +1,31 @@
+.title {
+    color: blue;
+    font-size: 3rem;
+}
+
+
+/* Simple template for conatiner */
+
+.container1 {
+    margin: auto;
+    max-width: 500px;
+    font-family: sans-serif;
+}
+
+.heading {
+    color: rebeccapurple;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+
+.nav-link-item {
+    padding-right: 2rem;
+}
+
+.nav-link-text {
+    color: black;
+}
