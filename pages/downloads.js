@@ -7,7 +7,7 @@ const AboutPage = () => {
     return ( <Layout pageTitle = "Download" >
         <p > Hi there!I'm the proud creator of this site, which I built with Gatsby.</p> 
         </Layout>
-    ),
+    )
 },
 
 // Step 3: Export your component
