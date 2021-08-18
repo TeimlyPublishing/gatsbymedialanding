@@ -22,6 +22,6 @@ const VideosPage = () => {
             </main>
         )
     
-},
+}
 
 export default VideosPage
