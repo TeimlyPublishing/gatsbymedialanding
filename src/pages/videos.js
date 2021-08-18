@@ -10,9 +10,9 @@ const VideosPage = () => {
     return (
         <main>
             <h1><Layout pageTitle="HomePage" PageHeading='Videos'></Layout></h1>
-                    <div>
-                        <Videos VideosPage='Videos'></Videos>
-                    </div>
+                    
+            <Videos VideosPage='Videos'></Videos>
+                    
         </main>
       
       
