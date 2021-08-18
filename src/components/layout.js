@@ -25,7 +25,7 @@ const HomePage = ({ pageTitle, children }) => {
             </Link>
           </li>
           <li className={navLinkItem}>
-            <Link to="/about" className={navLinkText}>
+            <Link to="/videos" className={navLinkText}>
               VIDEOS
             </Link>
           </li>
