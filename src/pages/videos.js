@@ -1,6 +1,7 @@
         // Step 1: Import React
 import * as React from 'react'
 import Layout from '../components/layout'
+import { Link } from 'gatsby'
 import Videos from '../components/videos'
 
 
@@ -8,14 +9,10 @@ import Videos from '../components/videos'
 const VideosPage = () => {
     return (
         <main>
-        <h1><Layout pageTitle="videos" PageHeading='YouTube'></Layout></h1>
-            <p>
-                <Link to='/videos'>Go to Videos</Link>
-                <Link to='/about'>Downloads</Link>
-            </p>
-                <div>
-                    <Videos VideosPage='Videos'></Videos>
-                </div>
+            <h1><Layout pageTitle="HomePage" PageHeading='Videos'></Layout></h1>
+                    <div>
+                        <Videos VideosPage='Videos'></Videos>
+                    </div>
         </main>
       
       
