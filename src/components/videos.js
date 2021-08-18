@@ -10,10 +10,10 @@ const VideosPage = () => {
                 <div className={container}>
                 <iframe width="auto" height="auto" src="https://www.youtube.com/embed/wr8rbaHUM6Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
-                <div className={container3}>
+                <div className={container}>
                 <iframe width="auto" height="auto" src="https://www.youtube.com/embed/wr8rbaHUM6Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
-                <div className={container4}>
+                <div className={container}>
                 <iframe width="auto" height="auto" src="https://www.youtube.com/embed/wr8rbaHUM6Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </main>

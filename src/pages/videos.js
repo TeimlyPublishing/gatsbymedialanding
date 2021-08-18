@@ -7,8 +7,18 @@ import Videos from '../components/videos'
 // Step 2: Define your component
 const VideosPage = () => {
     return (
-      <Layout pageTitle="Videos" PageHeading='YouTube'></Layout>,
-      <Videos></Videos>
+        <main>
+        <Layout pageTitle="Videos" PageHeading='YouTube'></Layout>,
+            <h1>
+                <Link to='/videos'>Go to Videos</Link>
+                <Link to='/about'>Downloads</Link>
+            </h1>
+                <div>
+                    <Videos VideosPage='Videos'></Videos>
+                </div>
+        </main>
+      
+      
     )
   }
 
