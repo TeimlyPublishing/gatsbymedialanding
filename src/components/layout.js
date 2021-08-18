@@ -24,12 +24,18 @@ const HomePage = ({ pageTitle, children }) => {
               About
             </Link>
           </li>
+          <li className={navLinkItem}>
+            <Link to="/about" className={navLinkText}>
+              VIDEOS
+            </Link>
+          </li>
         </ul>
       </nav>
       <main>
         <h1 className={heading}>{pageTitle}</h1>
         {children}
       </main>
+
     </div>
   )
 }
