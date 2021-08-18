@@ -8,11 +8,11 @@ import Videos from '../components/videos'
 const VideosPage = () => {
     return (
         <main>
-        <Layout pageTitle="Videos" PageHeading='YouTube'></Layout>,
-            <h1>
+        <h1><Layout pageTitle="videos" PageHeading='YouTube'></Layout></h1>
+            <p>
                 <Link to='/videos'>Go to Videos</Link>
                 <Link to='/about'>Downloads</Link>
-            </h1>
+            </p>
                 <div>
                     <Videos VideosPage='Videos'></Videos>
                 </div>
