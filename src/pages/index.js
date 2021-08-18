@@ -12,9 +12,12 @@ import { Link } from 'gatsby'
                     <Layout pageTitle="HomePage" pageHeading='Heading'>
                         <p>I'm making this by following the Gatsby Tutorial.</p>
                     </Layout>
-                <Link to='/videos'>Go to Videos</Link>
-                <Link to='/404'>Downloads</Link>
+                    <h1>
+                        <Link to='/videos'>Go to Videos</Link>
+                        <Link to='/about'>Downloads</Link>
+                    </h1>
             </main>
+
         )
       }
       

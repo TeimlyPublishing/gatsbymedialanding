@@ -1,4 +1,7 @@
 import * as React from 'react'
+import {
+    container,
+  } from './layout.module.css'
 
 
 const VideosPage = () => {
