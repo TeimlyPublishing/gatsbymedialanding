@@ -8,7 +8,7 @@ import {
   navLinkText
 } from './layout.module.css'
 
-const HomePage = ({ pageTitle, children }) => {
+const HomePage = ({ pageTitle, pageHeading, children }) => {
   return (
     <div className={container}>
       <title>{pageTitle}</title>
@@ -33,6 +33,7 @@ const HomePage = ({ pageTitle, children }) => {
       </nav>
       <main>
         <h1 className={pageHeading}>{pageTitle}</h1>
+        <p>LIsten To these new</p>
         {children}
       </main>
 

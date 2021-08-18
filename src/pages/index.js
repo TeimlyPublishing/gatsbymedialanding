@@ -7,16 +7,14 @@ import { Link } from 'gatsby'
 
     // Step 2: Define your component
     const HomePage = () => {
-        return (
-            <main>
+        return ( 
+        <main>
+            
                     <Layout pageTitle="HomePage" pageHeading='Heading'>
                         <p>I'm making this by following the Gatsby Tutorial.</p>
                     </Layout>
-                    <h1>
-                        <Link to='/videos'>Go to Videos</Link>
-                        <Link to='/about'>Downloads</Link>
-                    </h1>
-            </main>
+                   
+        </main>
 
         )
       }
